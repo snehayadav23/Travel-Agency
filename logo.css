@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    margin: 0;
+}
+
+#logo{
+    margin-top: -1.2rem;
+}
+
+.tm-header .container .row img{
+    transition: 1s ease;
+}
+
+.tm-header .container .row img:hover{
+    transform: scale(1.17);
+    text-shadow: 3px 3px 8px #FF720B;
+}
+
+@media(max-width: 1170px){
+    .tm-header .container .row img{
+        margin-left: -2.1rem;
+        margin-bottom: -10rem;
+        height: 50px;
+        width: auto;
+        transform: translateY(-50px);
+        margin-top:0;
+    }
+}
+
+@media(max-width: 767px){
+    .tm-header .container .row img{
+        margin-left: -1rem;
+    }
+}
